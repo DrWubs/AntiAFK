@@ -1,7 +1,7 @@
-var waitBase = 3600; // DEFAULT: 3600s (1.5 hour)
+var waitBase = 3600; // DEFAULT: 3600s (1 hour)
 var waitVar = 1800; // DEFAULT: 1800 (0.5 hour)
  
-var responses = ["nice song", "i love this song!", "woo!", ":D", ":)", "NIIICE", "love this", "this is very good", "this song!", "beautiful!, "good play"];
+var responses = [".", "good play", ".", "brb", ".", "brb", ".", ".", ".", "."];
  
 function speak()
 {
@@ -18,4 +18,3 @@ function speak()
 function getRandom(min, max)
 {
         return Math.floor(Math.random()*max + min);
-}
